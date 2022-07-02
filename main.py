@@ -605,21 +605,23 @@
 # kalkulator()
 
 
-def calc(num1, num2, operation):
-    if operation == "+":
-        print(num1 + num2)
-    elif operation == "-":
-        print(num1 - num2)
-    elif operation == "*":
-        print(num1 * num2)
-    elif operation == "/":
-        try: 
-            print(num1 / num2)
-        except:
-            print("НА ноль делить нельзя")
-    else:
-        print("Неправильная операция")
+# def calc(num1, num2, operation):
+#     if operation == "+":
+#         print(num1 + num2)
+#     elif operation == "-":
+#         print(num1 - num2)
+#     elif operation == "*":
+#         print(num1 * num2)
+#     elif operation == "/":
+#         try: 
+#             print(num1 / num2)
+#         except:
+#             print("НА ноль делить нельзя")
+#     else:
+#         print("Неправильная операция")
 
-calc(10, 0, "")
+# calc(10, 0, "")
+
+print("Nurbolot")
 
 
